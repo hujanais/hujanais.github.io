@@ -1,4 +1,4 @@
-
+Home
 # Edge-Micro-LLM
 
 ### A study of decentralized and on-prem private LLM for home and businesses
@@ -30,8 +30,8 @@ The following sections provide a chronological breakdown of the steps taken duri
 
 While I endeavor to share links to major projects that have significantly influenced this POC, it is impractical to reference every individual article or random YouTube video that has contributed to my learning. The vast array of resources utilized for learning may not all be explicitly mentioned, but the collective knowledge gleaned from the open-source community has played a pivotal role in shaping and informing each step of this journey.
 
-1.	Voice transcription using a Raspberry Pi + Whisper
-2.	Running a local LLM on laptop and/or Raspberry Pi
+1.	[Speech-to-Text on Raspberry Pi](https://hujanais.github.io/edge-llm/part-1)
+2.	[Local LLM on laptop and/or Raspberry Pi](https://hujanais.github.io/edge-llm/part-2)
 
 
 ## Closing
