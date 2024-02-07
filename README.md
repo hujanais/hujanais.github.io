@@ -1,5 +1,5 @@
 # Welcome to my hujanais.github.io page
-### This is a just a page for my various DIY and self-hackathon projects that I have worked on to better demystify and learn new technologies
+### This is a just a page of my various DIY and self-hackathon projects that I have worked on to better demystify and learn new technologies
 ### To see all projects and to deep-dive into details, please visit [Teik's profile page](https://about-me-hujanais.vercel.app/)
 ---
 ### Current Project

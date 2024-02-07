@@ -21,6 +21,9 @@ sudo reboot
 docker pull ollama/ollama
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 
+# if the docker container has stopped, you can restart it.
+docker start container_name
+
 ```
 ## Work with ollama with command-line inside the docker container
 ```
@@ -29,8 +32,18 @@ docker exec -it [containerId] bash # go into the container
 ollama run phi
 ```
 ### Interact with Ollama web server
-Once the Ollama docker container is running, it is also a webserver that you can access from a browser via endpoints
+Once the Ollama docker container is running, it is also a webserver that you can access from a browser via endpoints.  For example,
 ```
-http://your-pi-ip:11434
+curl http://your-pi-ip:11434/api/generate -d '{
+  "model": "llama2",
+  "prompt":"Why is the sky blue?"
+}'
 ```
+You can find all the endpoints in the documentation in the Ollama github project page.
+
+### Swapping the Pi with my laptop
+The Phi2 model was not as robust as I hoped for and just didn't want to deal with it at this learning stage and would prefer to use something bigger like Llama2.  For this, the Pi was unable to load the model and I instead just ran the docker container on my 2018 Macbook Pro 2.7Ghz Quad Core with 16GB of RAM.  LLama2 ran on my laptop amazingly smoothly.  Good enough to proceed at least.
+
+Suddenly I started day dreaming for a GPU rig but I digress.  
+
 > Written with [StackEdit](https://stackedit.io/).

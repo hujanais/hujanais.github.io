@@ -33,6 +33,7 @@ While I endeavor to share links to major projects that have significantly influe
 
 1.	[Speech-to-Text on Raspberry Pi](https://hujanais.github.io/edge-llm/part-1)
 2.	[Local LLM on laptop and/or Raspberry Pi](https://hujanais.github.io/edge-llm/part-2)
+3.  [Time to learn about LangChain](https://hujanais.github.io/edge-llm/part-3)
 
 
 ## Closing
