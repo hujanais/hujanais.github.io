@@ -91,7 +91,7 @@ There were 3 errors in the transcription using the tiny.en model and the words,
 | bike | bite |
 | We tried | Retried |
 
-This is actually a funny result because we Malaysians/Singaporeans have difficulty pronoucing R's, K's and T's and it showed on the tiny.en model.  However, the small.en model was able to handle all that.  Very impressive.  Obviously, we want to try to always use the smallest model to get the job done.
+This is actually a funny result because we Malaysians/Singaporeans have difficulty pronoucing R's, K's and T's and it showed on the tiny.en model.  However, the small.en model was able to transcribe with 100% accuracy.  Very impressive indeed.  The 4GB Pi can definitely load the larger models but I didn't test further.
 
 ## Time for what we really want to try.  Transcribe live audio
 ```

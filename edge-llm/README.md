@@ -18,6 +18,7 @@ There are several major considerations of using LLMs.
 Massive LLMs like ChatGPT and Claude.ai are massive models that are run on very expensive hardware mostly reserved to the hyperscalers.  There is a huge benefit to decentralize the LLMs to run on a local environment or device to have complete privacy.  Furthermore, for specific business use-case, it is sometimes unneccessary to run massive foundation models which is very costly and has a huge environmental impact.  Instead, there is a lot of interest and benefit to use micro LLMs that are trained with private data that will be able to run on low powered hardware like CPUs instead of GPUs and even on SBCs like the Raspberry Pi.  The lowered cost and simplicity of deployment will also drive massive adoption in various use cases.
 
 ## Goal
+
 1. The first goal is to conduct research and to develop a proof of concept that demonstrates the chain of taking a user input to executing a physical action.  For example, we would like to demonstrate taking a verbal command from a user like "Please let me know which motor has been running hot in the past 24 hours?".  
 
 ```
@@ -33,10 +34,9 @@ While I endeavor to share links to major projects that have significantly influe
 
 1.	[Speech-to-Text on Raspberry Pi](https://hujanais.github.io/edge-llm/part-1)
 2.	[Local LLM on laptop and/or Raspberry Pi](https://hujanais.github.io/edge-llm/part-2)
-3.  [Time to learn about LangChain](https://hujanais.github.io/edge-llm/part-3)
-
+3.	[Using RAQ with LLMs](https://hujanais.github.io/edge-llm/part-3)
 
 ## Closing
-Join us on this exciting journey as we push the boundaries of on-device language models, unlocking a new era of possibilities in edge computing. Together, let's shape the future of efficient, intelligent, and privacy-centric edge solutions with Edge-Micro-LLM.
+Join us on this exciting journey to explore and understand how to take the abstract concepts of LLMs into a fully functional system so we can understand the big picture on connectivity, deployment and limitations.
 
 > Written with [StackEdit](https://stackedit.io/).
